@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR-BUCKS-CLONE</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo.png" class="logo" alt="logo"></a>
+            <ul>
+
+                <li><a href="#">HOME </a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CUSTOM </a></li>
+                <li><a href="#">ABOUT</a></li>
+
+            </ul>
+        </header>
+
+
+
+
+        <div class="content">
+
+
+            <div class="textbox">
+                <h2>It's not just Coffee <br> Its <span class="star">Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quos earum at, iste provident vel aliquam dicta autem voluptatibus id rem! Ut omnis eum adipisci molestiae, asperiores molestias nulla, iste autem, quibusdam dolorum rerum nisi inventore. Doloribus quia nulla incidunt modi cum et officia illum, a ducimus consectetur odio repellat illo impedit hic repudiandae, laborum iste. Suscipit minima nostrum quibusdam, deleniti veritatis sequi itaque quos necessitatibus quasi natus aliquid, maiores sint at doloribus quisquam voluptates eum cupiditate harum, aperiam quas!</p>
+                <a href="#" class="button">Learn More</a>
+            </div>
+
+
+                <div class="imgBox">
+                    <img src="images/greenshake.png" class="starbucks" alt="image">
+
+                </div>
+        </div>
+
+
+
+        <ul class="thumb">
+            <li><img src="images/greenshake.png" class="t1" alt="image" onclick="imgSlider('images/greenshake.png'); colourchanger('#017143'); changeColors('#017143');changeColours('#017143')"></li>
+
+
+            <li><img src="images/tutifruti.png" id="bbbbbb" class="t2" alt="image" onclick="imgSlider('images/tutifruti.png') ; colourchanger('#eb7495') ;changeColors('#eb7495'); changeColours('#eb7495')"></li>
+
+
+            <li><img src="images/strawberry.png" class="t3" alt="image" onclick="imgSlider('images/strawberry.png') ; colourchanger('#d752b1'); changeColors('#d752b1'); changeColours('#d752b1')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png" alt="image"></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt="image"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="image"></a></li>
+        </ul>
+
+
+    </section>
+    <script type="text/javascript">
+    function imgSlider(a)
+    {
+        document.querySelector('.starbucks').src= a;
+    }
+    function colourchanger(b)
+    {
+        const circle=document.querySelector('.circle');
+        circle.style.background = b;
+    }
+    function changeColors(colors)
+    {
+        const text = document.querySelector(".star");
+        text.style.color = colors;
+    }
+    function changeColours(colours)
+    {
+        const but = document.querySelector(".button");
+        but.style.color = colours;
+      }
+
+    </script>
+    
+</body>
+</html>
