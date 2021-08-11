@@ -1,6 +1,6 @@
 # Starbucks
 ## Description:
- This is a Starbuck Clone develpment ___JUST STARRING JAVASCRIPT___
+ This is a Starbuck Clone develpment ___JUST STARTING JAVASCRIPT___
 
 
   
