@@ -1,4 +1,4 @@
-## Starbucks Go Live - <a href="url">nonrespnsive-starbucks.netlify.app</a> 
+## Starbucks  - <a href="https://nonrespnsive-starbucks.netlify.app/">GO LIVE</a> 
 ## Description:
  This is a Starbuck Clone develpment ___JUST STARTING JAVASCRIPT___
 
