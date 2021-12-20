@@ -243,8 +243,9 @@ header ul li a
         overflow: hidden;
         box-sizing: none;
     }
-    .text
+    .content .textbox p
     {
+        width: 150px;
         font-size:10px;
         color: #fff;
     }
