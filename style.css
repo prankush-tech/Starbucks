@@ -242,5 +242,9 @@ header ul li a
         *{
         overflow: hidden;
     }
+        .text
+    {
+        font-size:10px;
+    }
 
 }
