@@ -241,6 +241,7 @@ header ul li a
     }
     *{
         overflow: hidden;
+        box-sizing: none;
     }
     .text
     {
