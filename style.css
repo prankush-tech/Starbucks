@@ -237,14 +237,13 @@ header ul li a
     }
     .sci {
         position: absolute;
-        top: 25%;
+        top: 27%;
     }
-        *{
+    *{
         overflow: hidden;
     }
-        .text
+    .text
     {
         font-size:10px;
     }
-
 }
