@@ -245,5 +245,11 @@ header ul li a
     .text
     {
         font-size:10px;
+        color: #fff;
+    }
+    .content .textbox {
+        position: relative;
+        max-width: 338px;
+        
     }
 }
