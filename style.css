@@ -239,5 +239,8 @@ header ul li a
         position: absolute;
         top: 25%;
     }
+        *{
+        overflow: hidden;
+    }
 
 }
